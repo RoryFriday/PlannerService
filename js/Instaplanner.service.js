@@ -5,8 +5,8 @@ Instaplanner.service = function ($) {
 
     var self = {};
 
-    self.host = 'https://api.crowdriff.com/v1';
-    self.token = 'e3095f0c-db49-11e5-855f-e22660f10656';
+    self.host;
+    self.token;
 
     self.init = function (host, token) {
         self.host = host;
